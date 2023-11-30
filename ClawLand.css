@@ -1,0 +1,156 @@
+.toyhero{
+    height: 480px;
+    width: 275px;
+    
+}
+
+.charhero{
+    margin: 0 auto;
+    height: 325px;
+    width: 425px;
+    margin-top: 5px;
+}
+
+.placehero{
+    margin: 0 auto;
+    height: 325px;
+    width: 425px;
+    margin-top: 5px;
+}
+
+.playhero{
+    margin: 0 auto;
+    height: 325px;
+    width: 425px;
+    margin-top: 5px;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 275px;
+    padding: 20px;
+    height: auto;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+    border: 3px solid silver;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+html{
+    background-image: url(images/claws2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: #f8e702;
+}
+
+iframe{
+    margin-top: 5px;
+}
+
+.col-sm-6 a{
+ text-decoration: none;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+}
+
+nav ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+}
+
+nav li{
+      padding: .5em 1em .5em 1em;
+      width:100%;
+      text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+          color: white;
+          text-decoration: none;
+}
+
+nav a:visited{
+             color: white;
+}
+
+nav a:hover{
+           color: yellow;
+}
+
+nav a:active{
+            color: #000000;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td{
+    padding: 10px;
+}
+
+footer{
+    background-color: #f8e702;
+
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
