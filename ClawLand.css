@@ -8,29 +8,31 @@
     margin: 0 auto;
     height: 325px;
     width: 425px;
-    margin-top: 5px;
+    padding: 20px;
+
 }
 
 .placehero{
     margin: 0 auto;
     height: 325px;
     width: 425px;
-    margin-top: 5px;
+    padding: 20px;
 }
 
 .playhero{
     margin: 0 auto;
     height: 325px;
     width: 425px;
-    margin-top: 5px;
+    padding: 20px;
+
 }
 
 .logo{
     display: block;
     margin: 0 auto;
-    max-width: 275px;
-    padding: 20px;
-    height: auto;
+    width: 530px;
+    padding: 30px;
+    height: 205px;
 }
 
 .gallery .preview{
@@ -70,17 +72,23 @@ body{
     margin: 0 auto;
 }
 
-h1{
+header{
     background-color: #f8e702;
 }
 
 iframe{
-    margin-top: 5px;
+    padding: 20px;
 }
 
 .col-sm-6 a{
  text-decoration: none;
 }
+
+.col-sm-6 p{
+    font-size: 1em;
+    word-spacing: 3px;
+}
+
 
 nav{
     text-align: center;
@@ -133,7 +141,7 @@ th, td{
 }
 
 footer{
-    background-color: #f8e702;
+    background-color: #99bee9;
 
 }
 
