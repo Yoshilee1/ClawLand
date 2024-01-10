@@ -1,49 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@1,400;1,700&display=swap');
+
+body{
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+#home-hero{
+          background-image: url(images/hero-page.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 900px;
+}
+
+#home-hero h1{
+             padding-top: 350px;
+             color: white;
+             text-shadow: 2px 2px 2px black;
+             font-size: 5em;
+
+}
+
 .toyhero{
-    height: 480px;
-    width: 275px;
-    
+        height: 480px;
+        width: 275px;
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 30px;
 }
 
 .charhero{
-    margin: 0 auto;
-    height: 325px;
-    width: 425px;
-    padding: 20px;
-
+         padding: 20px;
 }
 
 .placehero{
-    margin: 0 auto;
-    height: 325px;
-    width: 425px;
-    padding: 20px;
+          padding: 20px;
 }
 
 .playhero{
-    margin: 0 auto;
-    height: 325px;
-    width: 425px;
-    padding: 20px;
+         padding: 20px;
+         height: 600px;
+         width: 600px;
 
 }
 
 .logo{
-    display: block;
-    margin: 0 auto;
-    width: 530px;
-    padding: 30px;
-    height: 205px;
+     display: block;
+     margin: 0 auto;
+     width: 530px;
+     padding: 30px;
+     height: 205px;
 }
 
 .gallery .preview{
-    width:100%
-    height:auto;
-    border: 3px solid silver;
+                 width:100%;
+                 height:auto;
 }
 
 .gallery .gallery-thumbnails img {
     width:100px;
-    height:75px;
+    height:100px;
     margin: 3px 10px 10px 0;
 }
 
@@ -60,35 +75,34 @@
     display: block !important;
 }
 
-html{
-    background-image: url(images/claws2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+main{
+    max-width: 1200px;
+    margin: 30px auto;
 }
 
-body{
-    max-width: 1200px;
-    text-align: center;
-    margin: 0 auto;
+h1,h2{
+     font-family: 'Indie Flower', cursive;
+     text-align: center;
 }
+
+h2{
+  font-size: 3em;
+}
+
 
 header{
-    background-color: #f8e702;
+      background-color: #f8e702;
 }
 
-iframe{
-    padding: 20px;
-}
 
 .col-sm-6 a{
- text-decoration: none;
+           text-decoration: none;
 }
 
-.col-sm-6 p{
-    font-size: 1em;
-    word-spacing: 3px;
+p{
+ font-size: 1.5em;
 }
-
 
 nav{
     text-align: center;
@@ -97,21 +111,22 @@ nav{
 
 nav ul{
       list-style-type: none;
-      margin: 0;
-      padding: 0;
       text-align: center;
-      display: flex;
-      flex-direction: row;
+      margin-bottom: 0;
+      padding-left: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
 }
 
 nav li{
-      padding: .5em 1em .5em 1em;
       width:100%;
       text-decoration: none;
+      display: inline;
+      padding: 10px;
 }
 
 nav a{
-    text-decoration: none;
+     text-decoration: none;
 }
 
 nav a:link{
@@ -128,41 +143,51 @@ nav a:hover{
 }
 
 nav a:active{
-            color: #000000;
+            color: gray;
 }
 
 table{
-    border-collapse: collapse;
     margin: 0 auto;
+    text-align: center;
 }
 
 th, td{
-    padding: 10px;
+      color: blue;
+      border: 5px solid black;
+      padding: 10px;
+      background-color: orange;
+}
+
+hr{
+  display: inline-block;
 }
 
 footer{
-    background-color: #99bee9;
-
+      background-color: #99bee9;
+      font-size: 18px;
+      padding-top: 30px;
 }
 
-/*CSS without a media query--applies to all sizes unless overridden*/
-h1{
-    font-size: 4em;
- }
 
-/* CSS Adjustments for Tablets */
+
+
+/* CSS Adjustments for Tablets*/
 @media only screen and (max-width: 1024px) {
-  h1{
-    font-size: 1.8em;
-  }
-}
-/* CSS Adjustments for Smartphones */
-@media only screen and (max-width: 768px) {
-  h1{
-    font-size: 1.5em;
-  }
 
-  iframe{
-    width: 384;
-  }
+    #home-hero{
+              height: 300px;
+    }
+    #home-hero h1{
+              padding-top: 12px;
+    }
+
+
+}
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 640px) {
+
+
+
 }
